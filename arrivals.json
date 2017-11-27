@@ -1,7 +1,35 @@
-[
-  {"id": 1, "date": "2017-12-10T17:00:00", "name": "Jeff Zeldman", "image": "https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg", "arrived": false },
-  {"id": 2, "date": "2017-12-10T13:00:00", "name": "Brad Frost", "image": "https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg", "arrived": false },
-  {"id": 3, "date": "2017-12-10T14:00:00", "name": "Addell Charles", "image": "https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg", "arrived": false },
-  {"id": 4, "date": "2017-12-10T18:30:00", "name": "Remy Sharp", "image": "https://s3.amazonaws.com/uifaces/faces/twitter/rem/128.jpg", "arrived": false },
-  {"id": 5, "date": "2017-12-10T18:30:00", "name": "Matt Ince", "image": "https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg", "arrived": false }
-]
+{
+  "1": {
+    "date": "2017-12-10T17:00:00",
+    "name": "Jeff Zeldman",
+    "image": "https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg",
+    "arrived": false
+  },
+  "2": {
+    "date": "2017-12-10T13:00:00",
+    "name": "Brad Frost",
+    "image":
+      "https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg",
+    "arrived": false
+  },
+  "3": {
+    "date": "2017-12-10T14:00:00",
+    "name": "Addell Charles",
+    "image":
+      "https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg",
+    "arrived": false
+  },
+  "4": {
+    "date": "2017-12-10T18:30:00",
+    "name": "Remy Sharp",
+    "image": "https://s3.amazonaws.com/uifaces/faces/twitter/rem/128.jpg",
+    "arrived": false
+  },
+  "5": {
+    "date": "2017-12-10T18:30:00",
+    "name": "Matt Ince",
+    "image":
+      "https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg",
+    "arrived": false
+  }
+}
