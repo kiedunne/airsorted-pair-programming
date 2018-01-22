@@ -1,8 +1,5 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "prettier.eslintIntegration": true,
-  "files.exclude": {
-    "**/*.css": true
-  }
+  "prettier.eslintIntegration": true
 }
