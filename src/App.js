@@ -16,7 +16,7 @@ class App extends Component {
         <div className="App-content">
           {/* TODO SHOW ARRIVALS - ASSUME ENDPOINT ONLY RETURNS TODAYS ARRIVALS */}
           {/* TODO ORDER BY TIME */}
-          {/* TODO ALLOW ARRIVAL TO BE UPDATED TO "ARRIVED" & CHANGE COLOR */}
+          {/* TODO ALLOW ARRIVAL TO BE UPDATED AND SAVED TO "ARRIVED" & CHANGE COLOR */}
         </div>
       </div>
     );
