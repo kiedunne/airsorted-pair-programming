@@ -1,22 +1,25 @@
 import React, { Component } from "react";
 import "./App.css";
 
-// Endpoint to get arrivals https://pair-programming-task.firebaseio.com/arrivals.json (accepts GET & PATCH)
-// Returns array of arrivals for today
-// API Follows standard REST patterns e.g. updating an arrival `arrivals/${arrivalKey}.json` - body: { thing_that_changed: value}
+// Endpoint to get arrivals https://pair-programming-task.firebaseio.com/bookings.json (accepts GET & PATCH)
+// Returns array of bookings for today
+// API Follows standard REST patterns e.g. updating an arrival `bookings/2.json` - body: { thing_that_changed: value}
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Airsorted Guest Arrivals</h1>
+      <div className="app">
+        <header className="app-header">
+          <h1>Airsorted Bookings Dashboard</h1>
         </header>
 
-        <div className="App-content">
-          {/* TODO SHOW ARRIVALS - ASSUME ENDPOINT ONLY RETURNS TODAYS ARRIVALS */}
-          {/* TODO ORDER BY TIME */}
-          {/* TODO ALLOW ARRIVAL TO BE UPDATED AND SAVED TO "ARRIVED" & CHANGE COLOR */}
+        <div className="app-content">
+          {/* TODO SHOW BOOKINGS - ASSUME ENDPOINT ONLY RETURNS TODAYS ARRIVALS */}
+          {/* TODO ORDER BOOKINGS BY ARRIVAL TIME */}
+          {/* TODO ALLOW BOOKING TO BE CANCELLED - CHANGE COLOR AND MAKE OPAQUE */}
+          {/* WRITE A TEST TO ENSURE OUR LIST OF BOOKINGS IS RENDERED */}
+
+          <p className="empty-alert">No bookings found...</p>
         </div>
       </div>
     );

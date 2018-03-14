@@ -1,17 +1,22 @@
-.App-header {
+.app-header {
   background-color: #ff4d62;
   padding: 20px;
   color: white;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.App-header h1 {
+.app-header h1 {
   font-size: 1.5em;
   margin: 0;
 }
 
-.App-content {
+.app-content {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 720px;
   padding: 0 20px;
+}
+
+.empty-alert {
+  text-align: center;
 }
