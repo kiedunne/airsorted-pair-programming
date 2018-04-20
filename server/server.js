@@ -41,7 +41,7 @@ MongoClient.connect(dbURL, (err, db) => {
       .findOneAndUpdate(
         { _id: ObjectId(req.params.id) },
         { $set: { cancelled: Boolean(req.body.cancelled) } },
-        { upsert: true, returnOriginal: false }
+        { returnOriginal: false }
       )
       .then(booking => {
         resp.json(booking.value);
@@ -52,6 +52,6 @@ MongoClient.connect(dbURL, (err, db) => {
   });
 
   app.listen(port, () => {
-    console.info(`Server running on: http://localhost${port}`);
+    console.info(`Server running on http://localhost:${port}`);
   });
 });
