@@ -53,7 +53,7 @@ class App extends Component {
         </header>
 
         <div className="app-content">
-          {bookings.length > 0 ? (
+          {bookings.length ? (
             <Bookings bookings={bookings} toggleBooking={this.toggleBooking} />
           ) : (
             <p className="empty-alert">No bookings found...</p>
