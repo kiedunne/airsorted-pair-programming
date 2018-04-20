@@ -20,24 +20,3 @@
 .empty-alert {
   text-align: center;
 }
-
-.booking {
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.25rem;
-  justify-content: space-between;
-  padding: .75rem;
-}
-
-.booking img {
-  border-radius: 50%;
-  width: 4rem;
-}
-
-.booking--inactive {
-  border: 2px solid crimson;
-}
-
-.booking--active {
-  border: 2px solid lightseagreen;
-}
