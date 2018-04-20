@@ -40,7 +40,8 @@ MongoClient.connect(dbURL, (err, db) => {
       .collection("bookings")
       .findOneAndUpdate(
         { _id: ObjectId(req.params.id) },
-        { $set: { cancelled: req.body.cancelled } }
+        { $set: { cancelled: Boolean(req.body.cancelled) } },
+        { upsert: true, returnOriginal: false }
       )
       .then(booking => {
         resp.json(booking.value);
