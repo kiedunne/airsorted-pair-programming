@@ -8,6 +8,11 @@ import "./App.css";
 // PATCHING a booking will return the single resource that changed
 // API Follows standard REST patterns e.g. updating a booking `/bookings/${id}` - body: { thing_that_changed: value}
 
+// TODO SHOW LIST OF BOOKINGS 
+// TODO ORDER BOOKINGS BY ARRIVAL TIME SERVER OR CLIENT - UP TO YOU 
+// TODO ALLOW BOOKING TO BE CANCELLED/ACTIVATED - CHANGE STYLE TO MAKE APPARENT 
+// TODO WRITE A TEST TO ENSURE LIST OF BOOKINGS IS RENDERED
+
 class App extends Component {
   state = {
     bookings: []
