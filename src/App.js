@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 // Bookings endpoint http://localhost:8000/bookings (accepts GET & PATCH only)
-// GET returns array of all bookings for today
+// GET returns array of all bookings for today (note weird Mongo DB _id instead of id property)
 // PATCHING a booking will return the resource that changed
 // API follows standard REST patterns e.g. updating a booking `/bookings/${id}` - body: { thing_that_changed: value}
 
