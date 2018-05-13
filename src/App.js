@@ -3,11 +3,11 @@ import "./App.css";
 
 // Bookings endpoint http://localhost:8000/bookings (accepts GET & PATCH only)
 // GET returns array of all bookings for today
-// PATCHING a booking will return the single resource that changed
-// API Follows standard REST patterns e.g. updating a booking `/bookings/${id}` - body: { thing_that_changed: value}
+// PATCHING a booking will return the resource that changed
+// API follows standard REST patterns e.g. updating a booking `/bookings/${id}` - body: { thing_that_changed: value}
 
 // TODO SHOW LIST OF BOOKINGS
-// TODO ORDER BOOKINGS BY ARRIVAL TIME SERVER OR CLIENT - UP TO YOU
+// TODO ORDER BOOKINGS BY ARRIVAL TIME
 // TODO ALLOW BOOKING TO BE CANCELLED/ACTIVATED - CHANGE STYLE TO MAKE APPARENT
 // TODO WRITE A TEST TO ENSURE LIST OF BOOKINGS IS RENDERED
 
