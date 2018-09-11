@@ -10,6 +10,7 @@ import "./App.css";
 // TODO ORDER BOOKINGS BY ARRIVAL TIME
 // TODO ALLOW BOOKING TO BE CANCELLED/ACTIVATED - CHANGE STYLE TO MAKE APPARENT
 // TODO WRITE A TEST TO ENSURE LIST OF BOOKINGS IS RENDERED
+// TODO TALK ABOUT HOW THIS WOULD BE IMPROVED
 
 class App extends Component {
   render() {
@@ -19,6 +20,8 @@ class App extends Component {
           <h1>Airsorted Bookings Dashboard</h1>
         </header>
 
+        {/* CODE GOES HERE - MUCH LUCK :) */}
+        
         <p className="empty-alert">No bookings found...</p>
       </div>
     );

@@ -52,6 +52,6 @@ MongoClient.connect(dbURL, (err, db) => {
   });
 
   app.listen(port, () => {
-    console.info(`Server running on http://localhost:${port}`);
+    console.info(`API running on http://localhost:${port}`);
   });
 });
