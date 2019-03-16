@@ -19,11 +19,11 @@ const dbURL =
   "mongodb://stephen:2m9YatjtBL30@ds247499.mlab.com:47499/as-bookings";
 const port = 8000;
 
-MongoClient.connect(dbURL, (err, db) => {
+MongoClient.connect(dbURL, (err, client) => {
   if (err) return console.log(err);
 
   app.get("/bookings", (req, resp) => {
-    db
+    client.db()
       .collection("bookings")
       .find()
       .toArray()
@@ -36,7 +36,7 @@ MongoClient.connect(dbURL, (err, db) => {
   });
 
   app.patch("/bookings/:id", (req, resp) => {
-    db
+    client.db()
       .collection("bookings")
       .findOneAndUpdate(
         { _id: ObjectId(req.params.id) },
