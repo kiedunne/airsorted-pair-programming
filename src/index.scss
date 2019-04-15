@@ -1,0 +1,50 @@
+// COLORS
+$hot-pink: #ff4d62;
+$payne-grey: #565454;
+
+// ELEMENTS
+
+.eachBookingContainter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eachBooking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 3vw;
+}
+.bookingInfo {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+h1.bookingName {
+  color: $hot-pink;
+  font-size: 2vw;
+}
+
+img {
+  border-radius: 50%;
+}
+button {
+  background-color: $hot-pink;
+  color: white;
+  border: none;
+  font-size: 1vw;
+  border-radius: 10px;
+  padding: 0.8vw;
+}
+button:hover:focus {
+  opacity: 0.5;
+  outline: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  color: $payne-grey;
+}
