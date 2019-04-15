@@ -1,8 +1,8 @@
-import { ADD_ARTICLE } from "../constants/action-types";
+export function receiveBookings(bookings) {
+  console.log(bookings);
 
-export function addArticle(payload) {
   return {
-    type: ADD_ARTICLE,
-    payload
+    type: "RECEIVE_BOOKINGS",
+    bookings: bookings
   };
 }

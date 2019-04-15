@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
-import App from "./App";
-import index from "./js/index";
+import ConnectedApp from "./ConnectedApp";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<ConnectedApp />, document.getElementById("root"));

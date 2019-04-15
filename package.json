@@ -6,7 +6,8 @@
     "axios": "^0.18.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-redux": "^7.0.2"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",

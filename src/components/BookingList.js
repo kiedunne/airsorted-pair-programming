@@ -1,15 +1,11 @@
 import React from "react";
 import Booking from "./Booking";
 
-const BookingList = ({ bookings, handleUpdateBooking }) => {
+const BookingList = ({ bookings }) => {
   return bookings.length !== 0 ? (
     <div className="eachBookingContainter">
       {bookings.map(booking => (
-        <Booking
-          key={booking._id}
-          booking={booking}
-          handleUpdateBooking={handleUpdateBooking}
-        />
+        <Booking key={booking._id} booking={booking} />
       ))}
     </div>
   ) : (
